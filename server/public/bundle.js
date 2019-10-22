@@ -97,13 +97,67 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _LoginLayout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./LoginLayout */ "./client/components/LoginLayout.jsx");
+/* harmony import */ var _index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../index */ "./client/index.js");
+
+
 
 
 var App = function App() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "React development has begun!");
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_LoginLayout__WEBPACK_IMPORTED_MODULE_1__["default"], null);
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (App);
+
+/***/ }),
+
+/***/ "./client/components/LoginLayout.jsx":
+/*!*******************************************!*\
+  !*** ./client/components/LoginLayout.jsx ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+!(function webpackMissingModule() { var e = new Error("Cannot find module 'semantic-ui-react'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+
+
+
+var Login = function Login() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(!(function webpackMissingModule() { var e = new Error("Cannot find module 'semantic-ui-react'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()), {
+    placeholder: true
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(!(function webpackMissingModule() { var e = new Error("Cannot find module 'semantic-ui-react'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()), {
+    columns: 2,
+    relaxed: "very",
+    stackable: true
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(!(function webpackMissingModule() { var e = new Error("Cannot find module 'semantic-ui-react'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()).Column, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(!(function webpackMissingModule() { var e = new Error("Cannot find module 'semantic-ui-react'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()), null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(!(function webpackMissingModule() { var e = new Error("Cannot find module 'semantic-ui-react'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()).Input, {
+    icon: "user",
+    iconPosition: "left",
+    label: "Username",
+    placeholder: "Username"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(!(function webpackMissingModule() { var e = new Error("Cannot find module 'semantic-ui-react'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()).Input, {
+    icon: "lock",
+    iconPosition: "left",
+    label: "Password",
+    type: "password"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(!(function webpackMissingModule() { var e = new Error("Cannot find module 'semantic-ui-react'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()), {
+    content: "Login",
+    primary: true
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(!(function webpackMissingModule() { var e = new Error("Cannot find module 'semantic-ui-react'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()).Column, {
+    verticalAlign: "middle"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(!(function webpackMissingModule() { var e = new Error("Cannot find module 'semantic-ui-react'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()), {
+    content: "Sign up",
+    icon: "signup",
+    size: "big"
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(!(function webpackMissingModule() { var e = new Error("Cannot find module 'semantic-ui-react'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()), {
+    vertical: true
+  }, "Or"));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Login);
 
 /***/ }),
 
